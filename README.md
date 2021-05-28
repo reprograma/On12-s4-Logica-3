@@ -570,7 +570,6 @@ leu: boolean
 
 3) No arquivo app.js desenvolva sua lógica para o comportamento abaixo: 
   - deverá ser possível buscar livros pela categoria
-  - deverá ser possível buscar livros pelo id
   - Me recomenda livros pra ler? 
     Deverá listar livros que já foram lidos e que são recomendados 
   - Minha lista de desejo:
