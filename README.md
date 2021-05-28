@@ -572,9 +572,9 @@ leu: boolean
   - deverá ser possível buscar livros pela categoria
   - deverá ser possível buscar livros pelo id
   - Me recomenda livros pra ler? 
-    Deverá ser possível buscar livros que já foram lidos e que são recomendados 
+    Deverá listar livros que já foram lidos e que são recomendados 
   - Minha lista de desejo:
-    Deverá ser possível buscar livros que ainda não foram lidos 
+    Deverá listar livros que ainda não foram lidos 
 
 - Caso a pessoa usuária não escolha uma forma de busca, deverá mostrar todos os livros cadastrados, ordenados de forma crescente por quantidade de páginas.
 
