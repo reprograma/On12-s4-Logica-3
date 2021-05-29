@@ -315,6 +315,8 @@ O método `sort` recebe uma função de callback opcional. Caso a função não 
 
 
 ```js
+
+let numeros = [ 5, 9, 2]
 function funcaoDeComparacao(a, b) {
   
   if (a < b) {
@@ -542,7 +544,7 @@ ordenada de forma crescente pela idade
 
 Passo 1: npm init -y
 
-Passo 2: npm i --save readline-sync
+Passo 2: npm i --save readline-sync 
 
 Passo 3: npm i --save-dev nodemon
 
@@ -554,6 +556,7 @@ Passo 6: criar a database um array de objetos, não esquecer de exportar
 
 Passo 7: criar o arquivo app.js
 
+Passo 8: Rodar projeto npm run start
 **`E bora codar!`**
 
 
@@ -570,10 +573,14 @@ Vamos criar um sistema que armazena informações de livros para que seja possí
 - README.md
 - app.js
 - database.js
-- Inicialize o npm 
-- Crie o script de start
-- Crie o .gitignore
-- instale as dependências nodemon e readline-sync
+- Inicialize o npm :  npm init -y
+- Crie o script de start: 
+- Crie o script start no package.json:
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+- Crie o .gitignore (node_modules)
+- instale as dependências nodemon e readline-sync: npm i --save readline-sync nodemon
 
 2) No arquivo database crie e exporte a sua base no formato array de objetos contendo alguns dos livros que você já leu ou gostaria de ler com os seguintes campos:
 
