@@ -99,8 +99,6 @@ Acessando o valor de uma propriedade do objeto.
 console.log(pokemon.nome) // Pikachu
 ```
 
-Declarando uma variável de mesmo nome que a propriedade.
-
 ```js
 const nome = pokemon.nome
 const tipo = pokemon.tipo
@@ -110,6 +108,25 @@ console.log(nome) // Pikachu
 console.log(tipo) // elétrico
 console.log(altura) // 40.6
 ```
+
+Alterando propriedades
+
+```
+pokemon.nome = 'Bulbasaur'
+```
+
+Adicionando propriedades
+
+```
+pokemon.peso = '6,9kg'
+```
+
+Deletando propriedades
+
+```
+delete = pokemon.peso
+```
+
 
 Atribuição via desestruturação
 
